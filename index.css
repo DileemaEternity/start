@@ -1,0 +1,162 @@
+body {
+    background-color: Snow;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn {
+    font-size: 24px;
+    color: #000000;
+    position: relative;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.imagePhonk {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.zagolovki {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+a {
+    color: rgb(4, 15, 165);
+    text-decoration: none;
+    font-size: 25px;
+    text-align: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.test {
+    border: 2px solid black;
+    padding: 2px 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.question1 {
+    background-color: #fff9dc;
+}
+
+.question2 {
+    background-color: #e5ffe7;
+}
+
+.question3 {
+    background-color: gainsboro;
+}
+
+.question4 {
+    background-color: dodgerblue;
+}
+
+.question5 {
+    background-color: aquamarine;
+}
+
+.question6 {
+    background-color: khaki;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(179, 151, 151);
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: darkred;
+}
+
+.buttt {
+    text-align: center;
+}
+
+.aaa {
+    text-align: right;
+}
+
+.gradient {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.gradient h4 {
+    box-sizing: border-box;
+    width: 20em;
+    height: 2em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 2em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gradient h4:nth-child(odd) {
+    background: linear-gradient(to right, orange, tomato);
+    transform: perspective(400px) rotateY(30deg);
+    text-align: left;
+    padding-left: 10%;
+}
+
+.gradient h4:nth-child(even) {
+    background: linear-gradient(to left, orange, tomato);
+    text-align: right;
+    transform: perspective(400px) rotateY(-30deg);
+    padding-right: 10%;
+}
+
+.gradient h4:nth-child(odd):hover {
+    transform: perspective(250px)rotateY(30deg);
+    padding-left: 5%;
+}
+
+.gradient h4:nth-child(even):hover {
+    transform: perspective(250px)rotateY(-30deg);
+    padding-right: 5%;
+}
+
+.inputts {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
